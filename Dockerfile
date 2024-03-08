@@ -1,3 +1,3 @@
-FROM bitnami/tomcat:9.0
+FROM fabric8/tomcat-9
 
-COPY *.war /opt/bitnami/tomcat/webapps
+COPY *.war /opt/tomcat/webapps
